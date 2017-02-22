@@ -1,10 +1,14 @@
 package rssReader;
 
 public class contentGrabber {
+
+	private String startTag;
+	private String endTag;
 	
 	public String grab(String stream, String tag){
-		String startTag = "<"+tag+">";
-		String endTag = "</"+tag+">";
+		
+		startTag = "<"+tag+">";
+		endTag = "</"+tag+">";
 		
 		conversion c1 = new conversion();
 		
