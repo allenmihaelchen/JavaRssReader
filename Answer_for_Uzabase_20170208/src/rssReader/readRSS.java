@@ -10,7 +10,7 @@ public class readRSS {
             URL urlRSS = new URL (addressURL);
             BufferedReader in = new BufferedReader(new InputStreamReader(urlRSS.openStream()));
             String line;
-            conversion c1 = new conversion();
+            contentConverter c1 = new contentConverter();
             contentGrabber g1 = new contentGrabber();
             
             while((line=in.readLine())!=null){

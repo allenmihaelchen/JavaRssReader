@@ -1,21 +1,18 @@
 package rssReader;
 
-public class contentGrabber {
+public class contentGrabber extends content{
 
-	private String startTag;
-	private String endTag;
-	
-	public String grab(String stream, String tag){
+		public String grab(String stream, String tag){
 		
-		startTag = "<"+tag+">";
-		endTag = "</"+tag+">";
+		setStartTag("<"+tag+">");
+		setEndTag("</"+tag+">");
 		
-		conversion c1 = new conversion();
+		contentConverter c1 = new contentConverter();
 		
-		int firstPos = stream.indexOf(startTag);
+		int firstPos = stream.indexOf(getStartTag());
         String temp = stream.substring(firstPos);
-        temp=c1.convert(temp, startTag, "");
-        int lastPos = temp.indexOf(endTag);
+        temp=c1.convert(temp, getStartTag(), "");
+        int lastPos = temp.indexOf(getEndTag());
         temp = temp.substring(0,lastPos);
         
         return temp;
