@@ -15,8 +15,8 @@ You are going to make a Java application where it imports a RSS feed, make a con
 <br>
 If you have time, please add the specifications below:<br>
 <ul style="disk">
-<ol>
+<ul>
 <li>Make multiple entry RSS</li>
 <li>If an error occurs in the middle of the process, view information about an error to standard error output</li>
 <li>Not only viewing the read out to standard output, but also save them in text file</li>
-</ol>
+</ul>
