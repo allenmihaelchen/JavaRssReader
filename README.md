@@ -3,8 +3,9 @@ This is a RSS stream handling module written in Java, based on one of the Uzabas
 
 The detail is as following:
 
-【Q4】
-You are going to make a Java application where it imports a RSS feed, make a conversion process and read out. Please implement an application where it meets the specifications and requirements mentioned below. Please also submit class diagram. The assignment is scored whether it is designed object-oriented.
+<h1>【Q4】</h1>
+<br>
+You are going to make a Java application where it imports a RSS feed, make a conversion process and read out. Please implement an application where it meets the specifications and requirements mentioned below. Please also submit class diagram. The assignment is scored whether it is designed object-oriented.<br>
 • Entry RSS: http://tech.uzabase.com/rss
 • Conversion: Exclude a word “NewsPicks”
 • Read out: View conversion result to standard output
