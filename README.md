@@ -1,5 +1,5 @@
 # JavaRssReader
-This is a RSS stream handling module written in Java, based on one of the Uzabase coding question's requirements for interview.
+This is a RSS stream handling module written in Java, based on one of the Uzabase coding question's requirements for the interview.
 
 Following are the more details for question 4<br>
 
