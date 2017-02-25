@@ -1,6 +1,7 @@
 package rssReader;
 
 public abstract class content {
+	private static String title;
 	private String wordings;
 	private String grabbedContent;
 	private String startTag;
@@ -42,6 +43,16 @@ public abstract class content {
 	//Setter of EndTag
 	public void setEndTag(String endTag) {
 		this.endTag = endTag;
+	}
+
+	//Getter of the title
+	public static String getTitle() {
+		return title;
+	}
+
+	//Setter of the title
+	public static void setTitle(String title_tmp) {
+		title = title_tmp;
 	}
 	
 }
